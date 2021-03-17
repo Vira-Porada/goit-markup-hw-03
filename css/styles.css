@@ -28,9 +28,24 @@ body {
   overflow: hidden;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo {
@@ -53,17 +68,6 @@ h1, h2, h3, h4, p {
   color: var(--ligth-text-colour);
 }
 
-.link {
-  text-decoration: none;
-  color: inherit;
-}
-
-.list {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
 .site-nav a {
   color: var(--title-colour);
 }
@@ -75,6 +79,14 @@ h1, h2, h3, h4, p {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-colour);
+}
+
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -90,14 +102,14 @@ h1, h2, h3, h4, p {
 .hero .container {
   background-color: var(--dark-bg-colour);
   margin-bottom: 94px;
- }
+  text-align: center;
+}
 
 .hero-button {
   display: inline-block;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
-  text-align: center;
   margin-bottom: 30px;
   font-family: inherit;
   font-weight: 700;
@@ -113,9 +125,6 @@ h1, h2, h3, h4, p {
   background-color: #188ce8;
 }
 
-.container .benefits {
-  margin-bottom: 94px;
-}
 .section-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -125,7 +134,7 @@ h1, h2, h3, h4, p {
   color: var(--title-colour);
 }
 
-.benefit-item {
+.benefit-item-title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -133,11 +142,13 @@ h1, h2, h3, h4, p {
   text-transform: uppercase;
   color: var(--title-colour);
 }
+
 .team-section {
   background-color: var(--light-bg-colour);
+  width: 1600px;
 }
 
-.team-item {
+.team-item-title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -168,11 +179,10 @@ footer {
 
 .button {
   display: inline-block;
-padding-left: 22px;
-padding-right: 22px;
+  padding-left: 22px;
+  padding-right: 22px;
   min-width: 73px;
   border-radius: 4px;
-
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -202,26 +212,64 @@ padding-right: 22px;
   color: var(--accent-colour);
 }
 .page-header {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
- 
 }
-.container {
- background-color: turquoise;
-}
-  
+
 .hero-container {
   background-color: violet;
 }
-  /*outline: 2px solid tomato/
 
-
-.page-header {
-  background-color: var(--background-colour) ;
+.section-benefits {
+  background-color: yellow;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
+.benefits-list {
+  display: flex;
+  margin-bottom: 94px;
+  justify-content: flex-start;
+}
 
-  
+margin-left: 215px;
+margin-right: 215px;
 
+.benefit-item:not(:last-child) {
+  padding-right: 30px;
+}
 
+.benefit-text {
+}
+
+.section-activities {
+  display: inline-block;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 94px;
+}
+
+.activities-list {
+  display: flex;
+  width: 1170px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.activities-item:not(:last-child) {
+  padding-right: 30px;
+}
+
+.nov {
+  background-color: blueviolet;
+}
+.auth {
+  background-color: chocolate;
+}
+.hero {
+  background-color: darkgreen;
+}
