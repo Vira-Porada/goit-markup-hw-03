@@ -47,6 +47,10 @@ p {
   padding: 0px;
   margin: 0px;
 }
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 .logo {
   color: var(--title-colour);
@@ -85,6 +89,8 @@ p {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,6 +101,11 @@ img {
   height: auto;
 }
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+  justify-content: space-between;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -103,11 +114,11 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ligth-text-colour);
+  margin-bottom: 40px;
 }
 
 .hero .container {
   background-color: var(--dark-bg-colour);
-  margin-bottom: 94px;
   text-align: center;
 }
 
@@ -222,11 +233,6 @@ footer {
   background-color: violet;
 }
 
-.section-benefits {
-  background-color: yellow;
-  margin-bottom: 94px;
-}
-
 .section-benefits > .title {
   margin: 0px;
   padding: 0px;
@@ -242,10 +248,6 @@ footer {
 .benefit-item {
   flex-basis: calc (100%/4 - 30px);
   margin-right: 30px;
-}
-
-.section-activities {
-  margin-bottom: 94px;
 }
 
 .activities-list {
@@ -265,7 +267,6 @@ footer {
   padding: 0;
   margin: 0;
   margin-right: -30px;
-  margin-bottom: 94px;
 }
 
 .team-section .iteam {
@@ -282,16 +283,93 @@ footer {
   margin-bottom: 30px;
 }
 
-.nov {
-  background-color: blueviolet;
-}
-.auth {
-  background-color: chocolate;
-}
-.hero {
-  background-color: darkgreen;
+.auth-nav {
+  display: flex;
+  margin: auto;
 }
 
-.section-activities {
-  background-color: #188ce8;
+.link-logo {
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item + .item {
+  margin-left: 40px;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
+.auth-nav .link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.novigation {
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu {
+  display: flex;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.button-list .item + .item {
+  margin-left: 8px;
+}
+
+.works .list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.works .item {
+  flex-basis: calc (100%/3 - 30px);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.works .title {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 4px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.works .text {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.container .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .logo {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
