@@ -177,6 +177,8 @@ img {
 .hero {
   background-color: var(--dark-bg-colour);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-button {
