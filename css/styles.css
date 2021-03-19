@@ -52,6 +52,20 @@ p {
   padding-top: 94px;
 }
 
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .logo {
   color: var(--title-colour);
   font-family: Raleway;
@@ -85,25 +99,57 @@ p {
   color: var(--accent-colour);
 }
 
-.container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.current a {
+  color: var(--accent-colour);
 }
 
 .page-header {
   border-bottom: 1px solid #ececec;
   justify-content: space-between;
+}
+
+.auth-nav {
+  display: flex;
+  margin: auto;
+}
+
+.link-logo {
+  display: block;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item + .item {
+  margin-left: 40px;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
+.auth-nav .link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.novigation {
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu {
+  display: flex;
+}
+
+.main-navigation {
+  display: flex;
 }
 
 .hero-title {
@@ -160,6 +206,35 @@ img {
   color: var(--title-colour);
 }
 
+.benefits-list {
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  margin-right: -30px;
+}
+
+.benefit-item {
+  flex-basis: calc (100%/4 - 30px);
+  margin-right: 30px;
+}
+
+.section-benefits > .title {
+  margin: 0px;
+  padding: 0px;
+}
+
+.activities-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: -30px;
+}
+
+.activities-item {
+  flex-basis: calc (100%/3 - 30px);
+  margin-right: 30px;
+}
+
 .team-section {
   background-color: var(--light-bg-colour);
 }
@@ -172,6 +247,28 @@ img {
   color: var(--title-colour);
   text-align: center;
 }
+
+.team-section .list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: -30px;
+}
+
+.team-section .iteam {
+  flex-basis: calc (100%/4 - 30px);
+  margin-right: 30px;
+}
+
+.iteam-card-tumb {
+  margin-bottom: 30px;
+}
+
+.team-iteam-text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 footer {
   background-color: var(--dark-bg-colour);
 }
@@ -223,108 +320,6 @@ footer {
   letter-spacing: 0.06em;
   text-decoration: none;
   color: var(--title-colour);
-}
-
-.current a {
-  color: var(--accent-colour);
-}
-
-.hero-container {
-  background-color: violet;
-}
-
-.section-benefits > .title {
-  margin: 0px;
-  padding: 0px;
-}
-
-.benefits-list {
-  display: flex;
-  padding: 0px;
-  margin: 0px;
-  margin-right: -30px;
-}
-
-.benefit-item {
-  flex-basis: calc (100%/4 - 30px);
-  margin-right: 30px;
-}
-
-.activities-list {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-right: -30px;
-}
-
-.activities-item {
-  flex-basis: calc (100%/3 - 30px);
-  margin-right: 30px;
-}
-
-.team-section .list {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  margin-right: -30px;
-}
-
-.team-section .iteam {
-  flex-basis: calc (100%/4 - 30px);
-  margin-right: 30px;
-}
-
-.iteam-card-tumb {
-  margin-bottom: 30px;
-}
-
-.team-iteam-text {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.auth-nav {
-  display: flex;
-  margin: auto;
-}
-
-.link-logo {
-  display: block;
-}
-
-.site-nav {
-  display: flex;
-}
-
-.site-nav .item + .item {
-  margin-left: 40px;
-}
-
-.auth-nav .item + .item {
-  margin-left: 50px;
-}
-
-.auth-nav .link {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.site-nav .link {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.novigation {
-  display: flex;
-  justify-content: space-between;
-}
-.main-menu {
-  display: flex;
-}
-
-.main-navigation {
-  display: flex;
 }
 
 .button-list {
