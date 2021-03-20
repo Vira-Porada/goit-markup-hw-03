@@ -316,7 +316,7 @@ footer {
 }
 
 .button {
-  display: inline-block;
+  display: block;
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 6px;
