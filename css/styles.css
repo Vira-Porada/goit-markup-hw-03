@@ -226,7 +226,7 @@ img {
 }
 
 .benefit-item {
-  flex-basis: calc (100%/4 - 30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-right: 30px;
 }
 
