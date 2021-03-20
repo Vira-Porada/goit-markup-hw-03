@@ -15,6 +15,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-colour);
   background-color: var(--background-colour);
+  margin: 0;
 }
 
 a {
@@ -116,6 +117,9 @@ img {
   color: var(--title-colour);
 }
 
+.site-nav .item {
+  font-weight: 500;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-colour);
@@ -182,6 +186,7 @@ img {
   background-color: var(--dark-bg-colour);
   padding-top: 200px;
   padding-bottom: 200px;
+  overflow: hidden;
 }
 
 .hero-button {
@@ -204,9 +209,6 @@ img {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
-}
-
-.hero-info {
 }
 
 .benefit-item-title {
@@ -384,4 +386,5 @@ footer {
   padding-bottom: 20px;
   border: 1px solid #eeeeee;
   width: 320px;
+  background-color: var(--background-colour);
 }
