@@ -280,13 +280,15 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.iteam-card-tumb {
-  margin-bottom: 30px;
-}
-
 .team-iteam-text {
   text-align: center;
-  margin-bottom: 30px;
+}
+
+.team-content {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: auto;
+  background-color: var(--background-colour);
 }
 
 footer {
