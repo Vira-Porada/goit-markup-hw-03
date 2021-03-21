@@ -287,6 +287,8 @@ img {
 .team-content {
   padding-bottom: 30px;
   padding-top: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
   background-color: var(--background-colour);
 }
 
